@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title> Table Creation</title>
+	</head>
+	<body>
+	<form>
+		<table border="1" width="100%" cellpadding="10">
+			<tr>
+				<th width="25%"><img src="logo.png" width="150" height="150"></th>
+				<th width="75%" colspan="3"><font size="40" color="brown"> Sign up page </font></th>	
+				
+				
+			</tr>
+			
+			<tr>
+				<td width="25%">
+					Name :
+				</td>
+				
+				<td width="75%" colspan="3">	
+				
+				<input type="text" value="" placeholder="Name">
+				
+				</td>
+				
+				
+			</tr>
+			
+			<tr>
+				<td width="25%">
+					Gender :
+				</td>
+				
+				<td width="75%" colspan="3">	
+				
+				<input type="radio"  name="gender" value="male">
+				
+				Male<br>
+				
+				
+				<input type="radio"  name="gender" value="female">
+				
+				Female<br>
+				
+				
+				
+				</td>
+				
+				
+			</tr>
+			
+			<tr>
+				<td width="25%">
+					Languages :
+				</td>
+				
+				<td width="75%" colspan="3">	
+				
+				<input type="checkbox"   value="HTML">
+				
+				HTML<br>
+				
+				<input type="checkbox"   value="CSS">
+				
+				CSS<br>
+				
+				<input type="checkbox"   value="BOOTSTRAP">
+				
+				BOOTSTRAP<br>
+				
+				<input type="checkbox"   value="WORDPRESS">
+				
+				WORDPRESS<br>
+				
+				<input type="checkbox"   value="ANGULARJS">
+				
+				ANGULAR  JS<br>
+				
+				</td>
+				
+				
+			</tr>
+			
+			<tr>
+				<td width="25%">
+					Education Bachlor Start :
+				</td>
+				
+				<td width="75%" colspan="3">	
+				
+					<input type="date" id="send" oninput="result.value= send.value">
+					<input type="text" id="result"><br>
+				</td>
+				
+				
+			</tr>
+			
+			<tr>
+				<td width="25%">
+					Education Bachlor End :
+				</td>
+				
+				<td width="75%" colspan="3">	
+				
+					<input type="date" id="send" oninput="result.value= send.value">
+					<input type="text" id="result"><br>
+				</td>
+				
+				
+			</tr>
+			
+			<tr>
+				<td width="25%">
+					Email-id :
+				</td>
+				
+				<td width="75%" colspan="3">	
+				
+					<input type="email" id="send" oninput="result.value= send.value"><br>
+					<br>
+				</td>
+				
+				
+			</tr>
+			<tr>
+				<td width="25%">
+					Message :
+				</td>
+				
+				<td width="75%" colspan="3">	
+					<textarea id="message"  rows="5"> </textarea>
+					
+					<br>
+				</td>
+				
+				
+			</tr>
+
+				<td colspan="4"> 
+					<input type="submit" value="Submit"  onclick="alert('submit information')">
+					<input type="reset" value="clear" >
+				</td>
+			
+			<tr>
+				<td colspan="4"> <h2 style="text-align:center;"> Thank You </h2></td>
+			</tr>
+		</table>
+	
+	</form>
+	</body>
+</html>
